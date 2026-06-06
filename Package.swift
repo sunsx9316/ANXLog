@@ -13,7 +13,7 @@ let package = Package(
             targets: ["ANXLog"]),
     ],
     targets: [
-        .binaryTarget(name: "mars", path: "ANXLog/Resources/ANXLog.xcframework"),
+        .binaryTarget(name: "mars", url: "https://github.com/sunsx9316/ANXLog/releases/download/1.0.3/ANXLog.xcframework.zip", checksum: "23bbacb838022cb722aa6da6dae2c21821cab0107abd093c5743464c45606fe3"),
         .target(
             name: "ANXLog",
             dependencies: [
